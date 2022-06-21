@@ -12,8 +12,23 @@
 // // sumNum = newNum;
 // console.log(num);
 // console.log(newNum);
-let num = 10;
-let newNum = ++num + 5;
-// sumNum = newNum;
-console.log(num);
-console.log(newNum);
+// let num = 10;
+// let newNum = ++num + 5;
+// // sumNum = newNum;
+// console.log(num);
+// console.log(newNum);
+// Camparisson operator
+// var a = 10;
+// b = 11;
+// console.log(a != b);
+// console.log(a >= b);
+//Logical operator && operator
+// var a, b
+// a = 50;
+// b = -12;
+// console.log((a > b) && (b < 0));
+// OR Operator
+var a, b
+a = 50;
+b = -12;
+console.log((a < b) || (b > 0));
