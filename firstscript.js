@@ -28,7 +28,9 @@
 // b = -12;
 // console.log((a > b) && (b < 0));
 // OR Operator
-var a, b
-a = 50;
-b = -12;
-console.log((a < b) || (b > 0));
+// var a, b
+// a = 50;
+// b = -12;
+// console.log((a < b) || (b > 0));
+
+//String Concatenation
