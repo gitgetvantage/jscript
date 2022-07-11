@@ -36,11 +36,49 @@
 //String Concatenation
 // console.log(3**3);
 // console.log(3 + " string");
-x = 15;
-y = 10;
-x = x + y;
-y = x - y;
-x = x - y;
-// console.log(x)
-console.log(`Value of x: ${x}`);
-console.log(`Value of y: ${y}`);
+// x = 15;
+// y = 10;
+// x = x + y;
+// y = x - y;
+// x = x - y;
+// // console.log(x)
+// console.log(`Value of x: ${x}`);
+// console.log(`Value of y: ${y}`);
+//  let year = 2021;
+//  if(year % 4 == 0){
+//     if(year % 100 == 0){
+//         console.log("This is year is not leap year")
+//     }
+//     else{
+//         console.log("thankyou");
+//     }
+//     console.log("This year is leap year");
+//  }
+//  else{
+//     console.log("This year is not Leape year");
+//  }
+function month(){
+    document.getElementById('arr').value;
+    document.getElementById('data').innerHTML = month
+    const month = ['Jan','Feb','March','April','May','June','July','August']
+//  book.push('fourthbook')
+IndexofMonth = month.indexOf(arr)
+if(IndexofMonth != -1){
+    const newMonth = month.splice(IndexofMonth,1,'Dec')
+    console.log(month);
+}else{
+    console.log('No such data are found')
+}
+
+}
+//  const month = ['Jan','Feb','March','April','May','June','July','August']
+// //  book.push('fourthbook')
+// IndexofMonth = month.indexOf(arr)
+// if(IndexofMonth != -1){
+//     const newMonth = month.splice(IndexofMonth,1,'Dec')
+//     console.log(month);
+// }else{
+//     console.log('No such data are found')
+// }
+//  console.log(month);
+
